@@ -1,3 +1,11 @@
+## UNSAFE Lifecycle methods removed
+
+UNSAFE_componentWillMount -> constructor <br><br>
+UNSAFE_componentWillReceiveProps -> getDerivedStateFromProps & componentDidUpdate <br><br>
+UNSAFE_componentWillUpdate -> None <br><br>
+
+Based on https://github.com/react-native-community/react-native-side-menu
+
 ## Customizable side menu for react-native
 
 | iOS | android |
